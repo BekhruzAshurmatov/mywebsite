@@ -5,3 +5,11 @@ from django.shortcuts import render
 def index(request):
     #return HttpResponse('Hello Django!')
     return render(request, 'index.html')
+
+
+def about(request):
+    return HttpResponse('About us')
+
+
+def contact(request):
+    return HttpResponse('Contacts page')
