@@ -26,3 +26,22 @@ class Subject(models.Model):
     def __str__(self):
         return self.title
 
+
+class Student(models.Model):
+    name = models.CharField(max_length=150)
+    description = models.TextField(max_length=255)
+    image = models.ImageField(blank=True, upload_to='images/')
+
+    def __str__(self):
+        return self.name
+
+
+class Tutor(models.Model):
+    subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
+    name = models.CharField(max_length=150)
+    description = models.TextField(max_length=255)
+    image = models.ImageField(upload_to='images/')
+
+    def __str__(self):
+        return self.name
+

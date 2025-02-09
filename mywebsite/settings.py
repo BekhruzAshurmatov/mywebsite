@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'course.apps.CourseConfig',
     'ckeditor',
+    'active_link',
 ]
 
 MIDDLEWARE = [
@@ -137,7 +138,7 @@ CKEDITOR_CONFIGS = {
         'toolbar': None,
     },
 }
-##################################
+###################################
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

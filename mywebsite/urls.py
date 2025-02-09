@@ -16,15 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from home.views import index, about, contact
+from home.views import index, about, contact, tutors, students
 from course import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', index),
-    path('', index),
-    path('course/', views.index),
+    path('home/', index, name='home'),
+    path('', index, name='home'),
+    path('course/', views.index, name='course'),
     path('ckeditor/', include('ckeditor_uploader.urls')),
-    path('about/', about),
-    path('contact/', contact),
+    path('about/', about, name='about'),
+    path('contact/', contact, name='contact'),
+    path('tutor/', tutors, name='tutor'),
+    path('student/', students, name='student'),
 ]
