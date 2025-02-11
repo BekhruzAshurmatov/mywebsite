@@ -33,6 +33,7 @@ urlpatterns = [
     path('students.html', students, name='student'),
     path('courses.html', subjects, name='subject'),
     path('/subject/<int:id>/<slug:slug>', subject_details, name='subject_detail'),
+    path('/tutor/<int:id>/<slug:slug>', subject_details, name='subject_detail'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -24,7 +24,7 @@ class Subject(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
     subject_tutor = models.CharField(max_length=255)
-    description = RichTextUploadingField()
+    description = models.TextField(max_length=255)
     image = models.ImageField(upload_to='images/')
     price = models.CharField(max_length=50)
     detail = models.CharField(max_length=255)

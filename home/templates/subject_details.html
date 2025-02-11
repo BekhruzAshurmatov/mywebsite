@@ -2,7 +2,7 @@
 {% load static %}
 {% block body %}
 <!-- page title -->
-<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+<section class="page-title-section overlay" data-background="{% static 'images/backgrounds/page-title.jpg'%}">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -23,7 +23,7 @@
     <div class="row">
       <div class="col-12 mb-4">
         <!-- course thumb -->
-        <img src="images/courses/course-single.jpg" class="img-fluid w-100">
+        <img src="{% static 'images/courses/course-single.jpg'%}" class="img-fluid w-100">
       </div>
     </div>
     <!-- course info -->
@@ -143,8 +143,7 @@
           <div class="media mb-2 mb-sm-0">
             <img class="mr-4 img-fluid" src="images/teacher.jpg" alt="Teacher">
             <div class="media-body">
-              <h4 class="mt-0">Sam Somrat</h4>
-              Photographer
+              <h4 class="mt-0">{{ tutor.name }}</h4>
             </div>
           </div>
           <div class="social-link">

@@ -70,8 +70,10 @@ def students(request):
 def subject_details(request, id, slug):
     setting = Setting.objects.get()
     subject = Subject.objects.get(pk=id)
+    tutor = Tutor.objects.get(subject=subject)
     context = {'setting': setting,
-               'subject': subject, }
+               'subject': subject,
+               'tutor': tutor, }
     return render(request, 'subject_details.html', context)
 
 def subjects(request):
