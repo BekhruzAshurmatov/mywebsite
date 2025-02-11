@@ -19,7 +19,7 @@ class Setting(models.Model):
     instagram = models.CharField(max_length=50)
     facebook = models.CharField(max_length=50)
     icon = models.ImageField(upload_to='images/')
-    aboutus = RichTextUploadingField()
+    aboutus = models.TextField(max_length=255)
     contact = RichTextUploadingField()
 
     def __str__(self):

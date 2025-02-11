@@ -1,5 +1,7 @@
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
+from django.utils.safestring import mark_safe
+
 
 # Create your models here.
 class Course(models.Model):
@@ -11,6 +13,11 @@ class Course(models.Model):
 
     def __str__(self):
         return self.title
+
+    def image_tag(self):
+        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
+    image_tag.short_description = 'Image'
 
 
 class Subject(models.Model):
@@ -26,6 +33,11 @@ class Subject(models.Model):
     def __str__(self):
         return self.title
 
+    def image_tag(self):
+        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
+    image_tag.short_description = 'Image'
+
 
 class Student(models.Model):
     name = models.CharField(max_length=150)
@@ -34,6 +46,11 @@ class Student(models.Model):
 
     def __str__(self):
         return self.name
+
+    def image_tag(self):
+        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
+    image_tag.short_description = 'Image'
 
 
 class Tutor(models.Model):
@@ -44,4 +61,9 @@ class Tutor(models.Model):
 
     def __str__(self):
         return self.name
+
+    def image_tag(self):
+        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
+    image_tag.short_description = 'Image'
 

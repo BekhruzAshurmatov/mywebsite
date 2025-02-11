@@ -7,16 +7,16 @@ class CourseAdmin(admin.ModelAdmin):
 
 
 class SubjectAdmin(admin.ModelAdmin):
-    list_display = ['title', 'course', 'slug']
+    list_display = ['title', 'course', 'image_tag']
     list_filter = ['course']
 
 
 class StudentAdmin(admin.ModelAdmin):
-    list_display = ['name', 'description']
+    list_display = ['name', 'description', 'image_tag']
 
 
 class TutorAdmin(admin.ModelAdmin):
-    list_display = ['name', 'description']
+    list_display = ['name', 'description', 'image_tag']
     list_filter = ['subject']
 
 

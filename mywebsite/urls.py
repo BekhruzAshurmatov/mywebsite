@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from home.views import index, about, contact, tutors, students
+from home.views import index, about, contact, tutors, students, subject_details, subjects
 from course import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,8 +27,12 @@ urlpatterns = [
     path('', index, name='home'),
     path('course/', views.index, name='course'),
     path('ckeditor/', include('ckeditor_uploader.urls')),
-    path('about/', about, name='about'),
-    path('contact/', contact, name='contact'),
-    path('tutor/', tutors, name='tutor'),
-    path('student/', students, name='student'),
+    path('about.html', about, name='about'),
+    path('contact.html', contact, name='contact'),
+    path('tutors.html', tutors, name='tutor'),
+    path('students.html', students, name='student'),
+    path('courses.html', subjects, name='subject'),
+    path('/subject/<int:id>/<slug:slug>', subject_details, name='subject_detail'),
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

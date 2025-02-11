@@ -64,4 +64,27 @@
   <div id="map_canvas" data-latitude="51.507351" data-longitude="-0.127758"></div>
 </section>
 <!-- /gmap -->
+
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+
+<!-- Custom Google Map Initialization -->
+<script>
+  function initMap() {
+    var latitude = parseFloat(document.getElementById('map_canvas').getAttribute('data-latitude'));
+    var longitude = parseFloat(document.getElementById('map_canvas').getAttribute('data-longitude'));
+
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+      center: {lat: latitude, lng: longitude},
+      zoom: 12
+    });
+
+    var marker = new google.maps.Marker({
+      position: {lat: latitude, lng: longitude},
+      map: map
+    });
+  }
+
+  google.maps.event.addDomListener(window, 'load', initMap);
+</script>
 {% endblock %}

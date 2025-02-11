@@ -11,8 +11,8 @@ def index(request):
     setting = Setting.objects.get()
     course = Course.objects.all()
     course_cr = Course.objects.all().order_by('id')[:4]
-    subject_cr = Subject.objects.all().order_by('id')[:3]
-    tutor_cr = Tutor.objects.all().order_by('id')[:3]
+    subject_cr = Subject.objects.all().order_by('id')
+    tutor_cr = Tutor.objects.all().order_by('id')
     page = "home"
     context = {'setting': setting,
                'page': page,
@@ -65,3 +65,19 @@ def students(request):
     context = {'setting': setting,
                'student': student, }
     return render(request, 'students.html', context)
+
+
+def subject_details(request, id, slug):
+    setting = Setting.objects.get()
+    subject = Subject.objects.get(pk=id)
+    context = {'setting': setting,
+               'subject': subject, }
+    return render(request, 'subject_details.html', context)
+
+def subjects(request):
+    setting = Setting.objects.get()
+    subjects_cr = Subject.objects.all()
+    context = {'setting': setting,
+               'subjects_cr': subjects_cr, }
+    return render(request, 'subjects.html', context)
+

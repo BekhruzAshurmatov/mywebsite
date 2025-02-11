@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Our Students</a></li>
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Our Courses</a></li>
           <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
         </ul>
         <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>
@@ -37,23 +37,16 @@
     <!-- teacher list -->
     <div class="row" data-ref="mixitup-container">
       <!-- teacher -->
-        {% for s in student %}
+        {% for sub in subjects_cr %}
       <div data-ref="mixitup-target" class="col-lg-4 col-sm-6 mb-5 arts law">
         <div class="card border-0 rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="{{ s.image.url }}" alt="student">
+          <img class="card-img-top rounded-0" src="{{ sub.image.url }}" alt="course.thumb">
           <div class="card-body">
-            <a href="teacher-single.html">
-              <h4 class="card-title">{{ s.name | safe }}</h4>
+            <a href="{% url 'subject_detail' sub.id sub.slug %}">
+              <h4 class="card-title">{{ sub.title | safe }}</h4>
             </a>
-              <hr>
-            <p>Student</p>
-              <br>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-            </ul>
+            <p class="card-text mb-4">{{ sub.description }}</p>
+            <a href="{% url 'subject_detail' sub.id sub.slug %}" class="btn btn-primary btn-sm">More</a>
           </div>
         </div>
       </div>
