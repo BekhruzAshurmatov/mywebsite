@@ -9,5 +9,6 @@ class SettingAdmin(admin.ModelAdmin):
 class ContactMessageAdmin(admin.ModelAdmin):
     list_display = ['name', 'phone', 'status']
 
+
 admin.site.register(Setting, SettingAdmin)
 admin.site.register(ContactMessage, ContactMessageAdmin)

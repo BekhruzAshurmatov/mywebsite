@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Learning center website</title>
+  <title>Educenter</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,8 +47,8 @@
       position: absolute;
       top: 130%;
       transform: translateY(-50%);
-      width: 60px;
-      height: 60px;
+      width: 65px;
+      height: 65px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -63,14 +63,15 @@
     }
 
     .slick-next {
-      right: 20px;
+      right: 0px;
     }
 
     .slick-prev svg, .slick-next svg {
-      width: 50px;
-      height: 50px;
+      width: 65px;
+      height: 65px;
       stroke: lightgray;
       fill: none;
+      stroke-width: 1
       transition: stroke 0.3s ease;
     }
 
@@ -114,8 +115,8 @@
     $('.hero-slider').slick({
       dots: true, // Для отображения индикаторов
       arrows: true, // Для стрелок
-      prevArrow: '<button type="button" class="slick-prev"><svg width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="15 18 9 12 15 6" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>',
-      nextArrow: '<button type="button" class="slick-next"><svg width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>',
+      prevArrow: '<button type="button" class="slick-prev"><svg width="65" height="65" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="15 18 9 12 15 6" fill="none" stroke="lightgray" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg></button>',
+      nextArrow: '<button type="button" class="slick-next"><svg width="65" height="65" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6" fill="none" stroke="lightgray" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg></button>',
       autoplay: true, // Для автопрокрутки
       autoplaySpeed: 5000, // Скорость смены слайдов (в миллисекундах)
       fade: true, // Плавная смена слайдов

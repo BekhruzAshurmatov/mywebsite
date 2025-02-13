@@ -3,6 +3,7 @@ from django.shortcuts import render
 from course.models import Course, Subject, Tutor, Student
 from home.models import Setting, ContactForm, ContactMessage
 from django.contrib import messages
+from django.conf import settings
 
 
 # Create your views here.
@@ -12,7 +13,7 @@ def index(request):
     course = Course.objects.all()
     course_cr = Course.objects.all().order_by('id')[:4]
     subject_cr = Subject.objects.all().order_by('id')
-    tutor_cr = Tutor.objects.all().order_by('id')
+    tutor_cr = Tutor.objects.all().order_by('id')[:3]
     page = "home"
     context = {'setting': setting,
                'page': page,
@@ -46,7 +47,7 @@ def contact(request):
 
     setting = Setting.objects.get()
     form = ContactForm
-    context = {'setting': setting}
+    context = {'setting': setting, }
     # return HttpResponse('Contacts page')
     return render(request, 'contact.html', context)
 
@@ -68,11 +69,11 @@ def students(request):
 
 
 def subject_details(request, id, slug):
-    setting = Setting.objects.get()
+    course = Course.objects.all()
     subject = Subject.objects.get(pk=id)
     tutor = Tutor.objects.get(subject=subject)
-    context = {'setting': setting,
-               'subject': subject,
+    context = {'subject': subject,
+               'course': course,
                'tutor': tutor, }
     return render(request, 'subject_details.html', context)
 
