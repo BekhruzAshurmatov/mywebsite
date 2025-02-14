@@ -2,6 +2,7 @@ from django.contrib import admin
 from course.models import Course, Subject, Student, Tutor
 
 
+
 # Register your models here.
 class CourseAdmin(admin.ModelAdmin):
     list_display = ['title', 'slug']

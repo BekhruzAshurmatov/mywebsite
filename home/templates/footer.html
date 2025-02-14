@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!-- footer -->
 <footer>
   <!-- newsletter -->
@@ -6,11 +7,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
-          <h3 class="text-white">Subscribe Now</h3>
+          <h3 class="text-white">{% trans 'Subscribe Now' %}</h3>
           <form action="#">
             <div class="input-wrapper">
               <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
-              <button type="submit" value="send" class="btn btn-primary">Join</button>
+              <button type="submit" value="send" class="btn btn-primary">{% trans 'Join' %}</button>
             </div>
           </form>
         </div>
@@ -33,42 +34,42 @@
         </div>
         <!-- company -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">COMPANY</h4>
+          <h4 class="text-white mb-5">{% trans 'COMPANY' %}</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
-            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
-            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
-            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+            <li class="mb-3"><a class="text-color" href="about.html">{% trans 'About Us' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">{% trans 'Our Teacher' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">{% trans 'Contact' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">{% trans 'Blog' %}</a></li>
           </ul>
         </div>
         <!-- links -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">LINKS</h4>
+          <h4 class="text-white mb-5">{% trans 'LINKS' %}</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
-            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
-            <li class="mb-3"><a class="text-color" href="gallary.html">Gallary</a></li>
-            <li class="mb-3"><a class="text-color" href="faqs.html">FAQs</a></li>
+            <li class="mb-3"><a class="text-color" href="courses.html">{% trans 'Courses' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">{% trans 'Events' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="gallary.html">{% trans 'Gallery' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="faqs.html">{% trans 'FAQs' %}</a></li>
           </ul>
         </div>
         <!-- support -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">SUPPORT</h4>
+          <h4 class="text-white mb-5">{% trans 'SUPPORT' %}</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">Forums</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Documentation</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Language</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Release Status</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'Forums' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'Documentation' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'Language' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'Release Status' %}</a></li>
           </ul>
         </div>
         <!-- support -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">RECOMMEND</h4>
+          <h4 class="text-white mb-5">{% trans 'RECOMMEND' %}</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">WordPress</a></li>
-            <li class="mb-3"><a class="text-color" href="#">LearnPress</a></li>
-            <li class="mb-3"><a class="text-color" href="#">WooCommerce</a></li>
-            <li class="mb-3"><a class="text-color" href="#">bbPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'WordPress' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'LearnPress' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'WooCommerce' %}</a></li>
+            <li class="mb-3"><a class="text-color" href="#">{% trans 'bbPress' %}</a></li>
           </ul>
         </div>
       </div>

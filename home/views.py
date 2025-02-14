@@ -4,6 +4,7 @@ from course.models import Course, Subject, Tutor, Student
 from home.models import Setting, ContactForm, ContactMessage
 from django.contrib import messages
 from django.conf import settings
+from django.utils import translation
 
 
 # Create your views here.
@@ -83,4 +84,15 @@ def subjects(request):
     context = {'setting': setting,
                'subjects_cr': subjects_cr, }
     return render(request, 'subjects.html', context)
+
+def selectlanguage(request):
+    if request.method == 'POST':
+
+        lang = request.POST['language']
+        translation.activate(lang)
+        request.session[settings.LANGUAGE_COOKIE_NAME] = lang
+        return HttpResponseRedirect("/" + lang)
+
+
+
 

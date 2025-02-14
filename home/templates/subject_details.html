@@ -1,5 +1,6 @@
 {% extends 'homebase.html' %}
 {% load static %}
+{% load i18n %}
 {% block body %}
 <!-- page title -->
 <section class="page-title-section overlay" data-background="{% static 'images/backgrounds/page-title.jpg'%}">
@@ -7,10 +8,10 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="{% url 'subject' %}">Subjects</a></li>
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="{% url 'subject' %}">{% trans 'Subjects' %}</a></li>
           <li class="list-inline-item text-white h3 font-secondary nasted">{{ subject.title }}</li>
         </ul>
-        <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>
+        <p class="text-lighten">{% trans 'Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.' %}</p>
       </div>
     </div>
   </div>
@@ -37,8 +38,8 @@
             <div class="d-flex align-items-center">
               <i class="ti-book text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">COURSES</h6>
-                <p class="mb-0">06 Month</p>
+                <h6 class="mb-0">{% trans 'COURSES' %}</h6>
+                <p class="mb-0">{% trans '06 Month' %}</p>
               </div>
             </div>
           </li>
@@ -46,8 +47,8 @@
             <div class="d-flex align-items-center">
               <i class="ti-alarm-clock text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">DURATION</h6>
-                <p class="mb-0">03 Hours</p>
+                <h6 class="mb-0">{% trans 'DURATION' %}</h6>
+                <p class="mb-0">{% trans '03 Hours' %}</p>
               </div>
             </div>
           </li>
@@ -55,15 +56,15 @@
             <div class="d-flex align-items-center">
               <i class="ti-wallet text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">FEE</h6>
-                <p class="mb-0">From: $699</p>
+                <h6 class="mb-0">{% trans 'FEE' %}</h6>
+                <p class="mb-0">{% trans 'From: $699' %}</p>
               </div>
             </div>
           </li>
         </ul>
       </div>
       <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
-        <a href="#" class="btn btn-primary">Apply now</a>
+        <a href="#" class="btn btn-primary">{% trans 'Apply now' %}</a>
       </div>
       <!-- border -->
       <div class="col-12 mt-4 order-4">
@@ -73,7 +74,7 @@
     <!-- course details -->
     <div class="row">
       <div class="col-12 mb-4">
-        <h3>About Course</h3>
+        <h3>{% trans 'About Course' %}</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -86,7 +87,7 @@
           labore et dolore magnam aliquam quaerat voluptatem.</p>
       </div>
       <div class="col-12 mb-4">
-        <h3 class="mb-3">Requirements</h3>
+        <h3 class="mb-3">{% trans 'Requirements' %}</h3>
         <div class="col-12 px-0">
           <div class="row">
             <div class="col-md-6">
@@ -109,7 +110,7 @@
         </div>
       </div>
       <div class="col-12 mb-4">
-        <h3 class="mb-3">How to Apply</h3>
+        <h3 class="mb-3">{% trans 'How to Apply' %}</h3>
         <ul class="list-styled">
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla? Lorem, ipsum
             dolor. Lorem, ipsum.</li>
@@ -124,7 +125,7 @@
         </ul>
       </div>
       <div class="col-12 mb-5">
-        <h3>Fees and Funding</h3>
+        <h3>{% trans 'Fees and Funding' %}</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -138,7 +139,7 @@
       </div>
       <!-- teacher -->
       <div class="col-12">
-        <h5 class="mb-3">Teacher</h5>
+        <h5 class="mb-3">{% trans 'Teacher' %}</h5>
         <div class="d-flex justify-content-between align-items-center flex-wrap">
           <div class="media mb-2 mb-sm-0">
             <img class="mr-4 img-fluid" src="images/teacher.jpg" alt="Teacher">
@@ -147,7 +148,7 @@
             </div>
           </div>
           <div class="social-link">
-            <h6 class="d-none d-sm-block">Social Link</h6>
+            <h6 class="d-none d-sm-block">{% trans 'Social Link' %}</h6>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="#"><i class="ti-twitter-alt"></i></a></li>
