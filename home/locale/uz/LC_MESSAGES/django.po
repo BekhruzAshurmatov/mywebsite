@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 20:10+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: .\home\templates\about.html:11 .\home\templates\footer.html:39
+msgid "About Us"
+msgstr ""
+
+#: .\home\templates\about.html:14 .\home\templates\students.html:14
+#: .\home\templates\subject_details.html:14 .\home\templates\subjects.html:14
+#: .\home\templates\tutors.html:14
+msgid ""
+"Our courses offer a good compromise between the continuous assessment "
+"favoured by some universities and the emphasis placed on final exams by "
+"others."
+msgstr ""
+
+#: .\home\templates\about.html:27
+msgid "ABOUT OUR JOURNEY"
+msgstr ""
+
+#: .\home\templates\about.html:43
+msgid "TEACHERS"
+msgstr ""
+
+#: .\home\templates\about.html:50 .\home\templates\header.html:66
+#: .\home\templates\subject_details.html:41
+msgid "COURSES"
+msgstr ""
+
+#: .\home\templates\about.html:57 .\home\templates\header.html:72
+msgid "STUDENTS"
+msgstr ""
+
+#: .\home\templates\about.html:64
+msgid "SATISFIED CLIENTS"
+msgstr ""
+
+#: .\home\templates\about.html:83 .\home\templates\content.html:129
+msgid "Success Stories"
+msgstr ""
+
+#: .\home\templates\banner.html:11 .\home\templates\banner.html:24
+#: .\home\templates\banner.html:37
+msgid "Your bright future is our mission"
+msgstr ""
+
+#: .\home\templates\banner.html:16 .\home\templates\banner.html:29
+#: .\home\templates\banner.html:42 .\home\templates\content.html:87
+#: .\home\templates\subject_details.html:67
+msgid "Apply now"
+msgstr ""
+
+#: .\home\templates\contact.html:11 .\home\templates\contact.html:37
+msgid "Contact Us"
+msgstr ""
+
+#: .\home\templates\contact.html:14
+msgid "Do you have other questions? Don"
+msgstr ""
+
+#: .\home\templates\contact.html:48
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: .\home\templates\content.html:14
+msgid "Scholarship News"
+msgstr ""
+
+#: .\home\templates\content.html:20
+msgid "Our Notice Board"
+msgstr ""
+
+#: .\home\templates\content.html:26
+msgid "Our Achievements"
+msgstr ""
+
+#: .\home\templates\content.html:32
+msgid "Admission Now"
+msgstr ""
+
+#: .\home\templates\content.html:48
+msgid "About Educenter"
+msgstr ""
+
+#: .\home\templates\content.html:51
+msgid "Learn more"
+msgstr ""
+
+#: .\home\templates\content.html:67 .\home\templates\subjects.html:11
+msgid "Our Courses"
+msgstr ""
+
+#: .\home\templates\content.html:70 .\home\templates\content.html:148
+msgid "see all"
+msgstr ""
+
+#: .\home\templates\content.html:97 .\home\templates\content.html:200
+msgid "sell all"
+msgstr ""
+
+#: .\home\templates\content.html:109
+msgid "Click to Join the Advance Workshop"
+msgstr ""
+
+#: .\home\templates\content.html:110
+msgid "Training In Advance Networking"
+msgstr ""
+
+#: .\home\templates\content.html:111
+msgid "join now"
+msgstr ""
+
+#: .\home\templates\content.html:145
+msgid "Upcoming Events"
+msgstr ""
+
+#: .\home\templates\content.html:159 .\home\templates\content.html:173
+#: .\home\templates\content.html:187
+msgid "December"
+msgstr ""
+
+#: .\home\templates\content.html:163
+msgid "Harvard, Usa"
+msgstr ""
+
+#: .\home\templates\content.html:164
+msgid "Toward a public philosophy of justice"
+msgstr ""
+
+#: .\home\templates\content.html:177
+msgid "Cambridge, Usa"
+msgstr ""
+
+#: .\home\templates\content.html:178
+msgid "Research seminar in clinical science."
+msgstr ""
+
+#: .\home\templates\content.html:191
+msgid "Dhanmondi Lake, Dhaka"
+msgstr ""
+
+#: .\home\templates\content.html:192
+msgid "Firefly training in trauma-informed yoga"
+msgstr ""
+
+#: .\home\templates\content.html:212 .\home\templates\tutors.html:11
+msgid "Our Teachers"
+msgstr ""
+
+#: .\home\templates\content.html:224 .\home\templates\subject_details.html:142
+#: .\home\templates\tutors.html:36
+msgid "Teacher"
+msgstr ""
+
+#: .\home\templates\content.html:247
+msgid "Latest News"
+msgstr ""
+
+#: .\home\templates\content.html:259
+msgid "August 28, 2019"
+msgstr ""
+
+#: .\home\templates\content.html:261
+msgid "By Jonathon"
+msgstr ""
+
+#: .\home\templates\content.html:264
+msgid "The Expenses You Are Thinking."
+msgstr ""
+
+#: .\home\templates\content.html:267 .\home\templates\content.html:287
+#: .\home\templates\content.html:307
+msgid "read more"
+msgstr ""
+
+#: .\home\templates\content.html:279
+msgid "August 13, 2019"
+msgstr ""
+
+#: .\home\templates\content.html:281
+msgid "By Jonathon Drew"
+msgstr ""
+
+#: .\home\templates\content.html:284
+msgid "Tips to Succeed in an Online Course"
+msgstr ""
+
+#: .\home\templates\content.html:299
+msgid "August 24, 2018"
+msgstr ""
+
+#: .\home\templates\content.html:301
+msgid "By Alex Pitt"
+msgstr ""
+
+#: .\home\templates\content.html:304
+msgid "Orientation Program for the new students"
+msgstr ""
+
+#: .\home\templates\footer.html:10
+msgid "Subscribe Now"
+msgstr ""
+
+#: .\home\templates\footer.html:14
+msgid "Join"
+msgstr ""
+
+#: .\home\templates\footer.html:37
+msgid "COMPANY"
+msgstr ""
+
+#: .\home\templates\footer.html:40
+msgid "Our Teacher"
+msgstr ""
+
+#: .\home\templates\footer.html:41
+msgid "Contact"
+msgstr ""
+
+#: .\home\templates\footer.html:42
+msgid "Blog"
+msgstr ""
+
+#: .\home\templates\footer.html:47
+msgid "LINKS"
+msgstr ""
+
+#: .\home\templates\footer.html:49
+msgid "Courses"
+msgstr ""
+
+#: .\home\templates\footer.html:50
+msgid "Events"
+msgstr ""
+
+#: .\home\templates\footer.html:51
+msgid "Gallery"
+msgstr ""
+
+#: .\home\templates\footer.html:52
+msgid "FAQs"
+msgstr ""
+
+#: .\home\templates\footer.html:57
+msgid "SUPPORT"
+msgstr ""
+
+#: .\home\templates\footer.html:59
+msgid "Forums"
+msgstr ""
+
+#: .\home\templates\footer.html:60
+msgid "Documentation"
+msgstr ""
+
+#: .\home\templates\footer.html:61
+msgid "Language"
+msgstr ""
+
+#: .\home\templates\footer.html:62
+msgid "Release Status"
+msgstr ""
+
+#: .\home\templates\footer.html:67
+msgid "RECOMMEND"
+msgstr ""
+
+#: .\home\templates\footer.html:69
+msgid "WordPress"
+msgstr ""
+
+#: .\home\templates\footer.html:70
+msgid "LearnPress"
+msgstr ""
+
+#: .\home\templates\footer.html:71
+msgid "WooCommerce"
+msgstr ""
+
+#: .\home\templates\footer.html:72
+msgid "bbPress"
+msgstr ""
+
+#: .\home\templates\header.html:12
+msgid "CALL"
+msgstr ""
+
+#: .\home\templates\header.html:37
+msgid "notice"
+msgstr ""
+
+#: .\home\templates\header.html:38
+msgid "research"
+msgstr ""
+
+#: .\home\templates\header.html:39
+msgid "SCHOLARSHIP"
+msgstr ""
+
+#: .\home\templates\header.html:40
+msgid "login"
+msgstr ""
+
+#: .\home\templates\header.html:41
+msgid "register"
+msgstr ""
+
+#: .\home\templates\header.html:60
+msgid "HOME"
+msgstr ""
+
+#: .\home\templates\header.html:63
+msgid "ABOUT"
+msgstr ""
+
+#: .\home\templates\header.html:69
+msgid "TUTORS"
+msgstr ""
+
+#: .\home\templates\header.html:75
+msgid "CONTACTS"
+msgstr ""
+
+#: .\home\templates\homebase.html:7
+msgid "Educenter"
+msgstr ""
+
+#: .\home\templates\students.html:11
+msgid "Our Students"
+msgstr ""
+
+#: .\home\templates\students.html:28 .\home\templates\subjects.html:28
+msgid "arts"
+msgstr ""
+
+#: .\home\templates\students.html:29 .\home\templates\subjects.html:29
+msgid "biological science"
+msgstr ""
+
+#: .\home\templates\students.html:30 .\home\templates\subjects.html:30
+msgid "business studies"
+msgstr ""
+
+#: .\home\templates\students.html:31 .\home\templates\subjects.html:31
+msgid "law"
+msgstr ""
+
+#: .\home\templates\students.html:32 .\home\templates\subjects.html:32
+msgid "pharmacy"
+msgstr ""
+
+#: .\home\templates\students.html:33 .\home\templates\subjects.html:33
+msgid "science"
+msgstr ""
+
+#: .\home\templates\students.html:34 .\home\templates\subjects.html:34
+msgid "social science"
+msgstr ""
+
+#: .\home\templates\students.html:50
+msgid "Student"
+msgstr ""
+
+#: .\home\templates\subject_details.html:11
+msgid "Subjects"
+msgstr ""
+
+#: .\home\templates\subject_details.html:42
+msgid "06 Month"
+msgstr ""
+
+#: .\home\templates\subject_details.html:50
+msgid "DURATION"
+msgstr ""
+
+#: .\home\templates\subject_details.html:51
+msgid "03 Hours"
+msgstr ""
+
+#: .\home\templates\subject_details.html:59
+msgid "FEE"
+msgstr ""
+
+#: .\home\templates\subject_details.html:60
+msgid "From: $699"
+msgstr ""
+
+#: .\home\templates\subject_details.html:77
+msgid "About Course"
+msgstr ""
+
+#: .\home\templates\subject_details.html:90
+msgid "Requirements"
+msgstr ""
+
+#: .\home\templates\subject_details.html:113
+msgid "How to Apply"
+msgstr ""
+
+#: .\home\templates\subject_details.html:128
+msgid "Fees and Funding"
+msgstr ""
+
+#: .\home\templates\subject_details.html:151
+msgid "Social Link"
+msgstr ""
+
+#: .\home\templates\subjects.html:50
+msgid "More"
+msgstr ""
