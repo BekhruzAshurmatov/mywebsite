@@ -8,18 +8,18 @@
     <div class="container">
       <div class="row no-gutters">
         <div class="col-lg-4 text-center text-lg-left">
-          <div class="d-flex align-items-center">
-            <a class="text-color mr-3" href="callto:+443003030266"><strong>{% trans 'CALL' %}</strong>{{ setting.phone }}</a>
-            <ul class="list-inline d-flex mb-0 ml-3">
+          <div class="d-flex align-items-center w-100">
+            <a class="text-color mr-auto" href="callto:+443003030266"><strong>{% trans 'CALL' %}</strong>{{ setting.phone }}</a>
+            <ul class="list-inline d-flex align-items-center mb-0 ml-2">
               <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
               <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
               <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
-              <li class="dropdown default-dropdown list-inline-item mx-0 ">
+              <li class="dropdown default-dropdown list-inline-item d-flex align-items-center">
                 <form action="{% url 'selectlanguage' %}" method="post">
                     {% csrf_token %}
                     <input name="next" type="hidden" value="{{ redirect_to }}">
-                    <select name="language" onchange="submit()" >
+                    <select name="language" onchange="submit()" class="form-control form-control-sm w-auto ml-3 p-1">
 
                         {% get_current_language as LANGUAGE_CODE %}
                         {% get_available_languages as LANGUAGES %}
