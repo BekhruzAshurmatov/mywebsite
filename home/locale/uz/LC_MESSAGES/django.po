@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: .\home\templates\about.html:11 .\home\templates\footer.html:39
 msgid "About Us"
-msgstr ""
+msgstr "Biz haqimizda"
 
 #: .\home\templates\about.html:14 .\home\templates\students.html:14
 #: .\home\templates\subject_details.html:14 .\home\templates\subjects.html:14
@@ -28,399 +28,399 @@ msgid ""
 "Our courses offer a good compromise between the continuous assessment "
 "favoured by some universities and the emphasis placed on final exams by "
 "others."
-msgstr ""
+msgstr "Bizning kurslarimiz ba'zi universitetlar tomonidan qo'llab-quvvatlanadigan doimiy baholash va boshqalar tomonidan yakuniy imtihonlarga e'tibor qaratish o'rtasida yaxshi murosani taklif qiladi."
 
 #: .\home\templates\about.html:27
 msgid "ABOUT OUR JOURNEY"
-msgstr ""
+msgstr "BIZNING SAYOHAT HAQIDA"
 
 #: .\home\templates\about.html:43
 msgid "TEACHERS"
-msgstr ""
+msgstr "O'QITUVCHILAR"
 
 #: .\home\templates\about.html:50 .\home\templates\header.html:66
 #: .\home\templates\subject_details.html:41
 msgid "COURSES"
-msgstr ""
+msgstr "KURSLAR"
 
 #: .\home\templates\about.html:57 .\home\templates\header.html:72
 msgid "STUDENTS"
-msgstr ""
+msgstr "STUDENTLAR"
 
 #: .\home\templates\about.html:64
 msgid "SATISFIED CLIENTS"
-msgstr ""
+msgstr "Qoniqarli mijozlar"
 
 #: .\home\templates\about.html:83 .\home\templates\content.html:129
 msgid "Success Stories"
-msgstr ""
+msgstr "Muvaffaqiyatli hikoyalar"
 
 #: .\home\templates\banner.html:11 .\home\templates\banner.html:24
 #: .\home\templates\banner.html:37
 msgid "Your bright future is our mission"
-msgstr ""
+msgstr "Sizning yorqin kelajagingiz bizning vazifamizdir"
 
 #: .\home\templates\banner.html:16 .\home\templates\banner.html:29
 #: .\home\templates\banner.html:42 .\home\templates\content.html:87
 #: .\home\templates\subject_details.html:67
 msgid "Apply now"
-msgstr ""
+msgstr "Hoziroq ro'yhatdan o'ting"
 
 #: .\home\templates\contact.html:11 .\home\templates\contact.html:37
 msgid "Contact Us"
-msgstr ""
+msgstr "Bog'lanish"
 
 #: .\home\templates\contact.html:14
-msgid "Do you have other questions? Don"
-msgstr ""
+msgid "Do you have other questions? Don't worry, there aren't any dumb questions. Just fill out the form below, and we'll get back to you as soon as possible."
+msgstr "Boshqa savollaringiz bormi? Xavotir olmang, ahmoqona savollar yo'q. Quyidagi shaklni to‘ldiring, biz sizga imkon qadar tezroq javob beramiz."
 
 #: .\home\templates\contact.html:48
 msgid "SEND MESSAGE"
-msgstr ""
+msgstr "XABAR YUBORISH"
 
 #: .\home\templates\content.html:14
 msgid "Scholarship News"
-msgstr ""
+msgstr "Grantlar haqida yangiliklar"
 
 #: .\home\templates\content.html:20
 msgid "Our Notice Board"
-msgstr ""
+msgstr "Bizning E'lonlar"
 
 #: .\home\templates\content.html:26
 msgid "Our Achievements"
-msgstr ""
+msgstr "Bizning Yutuqlar"
 
 #: .\home\templates\content.html:32
 msgid "Admission Now"
-msgstr ""
+msgstr "Qabul davom etmoqda"
 
 #: .\home\templates\content.html:48
 msgid "About Educenter"
-msgstr ""
+msgstr "O'quv markaz haqida"
 
 #: .\home\templates\content.html:51
 msgid "Learn more"
-msgstr ""
+msgstr "Batafsil ma'lumot"
 
 #: .\home\templates\content.html:67 .\home\templates\subjects.html:11
 msgid "Our Courses"
-msgstr ""
+msgstr "Bizning Kurslar"
 
 #: .\home\templates\content.html:70 .\home\templates\content.html:148
 msgid "see all"
-msgstr ""
+msgstr "barchasini ko'rish"
 
 #: .\home\templates\content.html:97 .\home\templates\content.html:200
 msgid "sell all"
-msgstr ""
+msgstr "barchasini sotish"
 
 #: .\home\templates\content.html:109
 msgid "Click to Join the Advance Workshop"
-msgstr ""
+msgstr "Ilg'or seminarga qo'shilish uchun bosing"
 
 #: .\home\templates\content.html:110
 msgid "Training In Advance Networking"
-msgstr ""
+msgstr "Advance Networking bo'yicha trening"
 
 #: .\home\templates\content.html:111
 msgid "join now"
-msgstr ""
+msgstr "Hoziroq qo'shilish"
 
 #: .\home\templates\content.html:145
 msgid "Upcoming Events"
-msgstr ""
+msgstr "Bo'lajak voqealar"
 
 #: .\home\templates\content.html:159 .\home\templates\content.html:173
 #: .\home\templates\content.html:187
 msgid "December"
-msgstr ""
+msgstr "Dekabr"
 
 #: .\home\templates\content.html:163
 msgid "Harvard, Usa"
-msgstr ""
+msgstr "Garvard, AQSH"
 
 #: .\home\templates\content.html:164
 msgid "Toward a public philosophy of justice"
-msgstr ""
+msgstr "Ommaviy adolat falsafasi tomon"
 
 #: .\home\templates\content.html:177
 msgid "Cambridge, Usa"
-msgstr ""
+msgstr "Kembridj, AQSH"
 
 #: .\home\templates\content.html:178
 msgid "Research seminar in clinical science."
-msgstr ""
+msgstr "Klinik fan bo'yicha tadqiqot seminari."
 
 #: .\home\templates\content.html:191
 msgid "Dhanmondi Lake, Dhaka"
-msgstr ""
+msgstr "Dhanmondi ko'li, Dakka"
 
 #: .\home\templates\content.html:192
 msgid "Firefly training in trauma-informed yoga"
-msgstr ""
+msgstr "Shikastlangan yoga bo'yicha o't chirog'ini tayyorlash"
 
 #: .\home\templates\content.html:212 .\home\templates\tutors.html:11
 msgid "Our Teachers"
-msgstr ""
+msgstr "Bizning O'qituvchilar"
 
 #: .\home\templates\content.html:224 .\home\templates\subject_details.html:142
 #: .\home\templates\tutors.html:36
 msgid "Teacher"
-msgstr ""
+msgstr "O'qituvchi"
 
 #: .\home\templates\content.html:247
 msgid "Latest News"
-msgstr ""
+msgstr "So'ngi yangiliklar"
 
 #: .\home\templates\content.html:259
 msgid "August 28, 2019"
-msgstr ""
+msgstr "28 Avgust, 2019"
 
 #: .\home\templates\content.html:261
 msgid "By Jonathon"
-msgstr ""
+msgstr "Jonaton"
 
 #: .\home\templates\content.html:264
 msgid "The Expenses You Are Thinking."
-msgstr ""
+msgstr "Siz o'ylagan xarajatlar."
 
 #: .\home\templates\content.html:267 .\home\templates\content.html:287
 #: .\home\templates\content.html:307
 msgid "read more"
-msgstr ""
+msgstr "batafsil"
 
 #: .\home\templates\content.html:279
 msgid "August 13, 2019"
-msgstr ""
+msgstr "13 Avgust, 2019"
 
 #: .\home\templates\content.html:281
 msgid "By Jonathon Drew"
-msgstr ""
+msgstr "Jonaton Dryu"
 
 #: .\home\templates\content.html:284
 msgid "Tips to Succeed in an Online Course"
-msgstr ""
+msgstr "Onlayn kursda muvaffaqiyat qozonish uchun tiplar"
 
 #: .\home\templates\content.html:299
 msgid "August 24, 2018"
-msgstr ""
+msgstr "24 Avgust, 2018"
 
 #: .\home\templates\content.html:301
 msgid "By Alex Pitt"
-msgstr ""
+msgstr "Aleks Pitt"
 
 #: .\home\templates\content.html:304
 msgid "Orientation Program for the new students"
-msgstr ""
+msgstr "Yangi talabalar uchun orientatsiya dasturi"
 
 #: .\home\templates\footer.html:10
 msgid "Subscribe Now"
-msgstr ""
+msgstr "Hoziroq obuna bo'ling"
 
 #: .\home\templates\footer.html:14
 msgid "Join"
-msgstr ""
+msgstr "Qo'shilish"
 
 #: .\home\templates\footer.html:37
 msgid "COMPANY"
-msgstr ""
+msgstr "KOMPANIYA"
 
 #: .\home\templates\footer.html:40
 msgid "Our Teacher"
-msgstr ""
+msgstr "Bizning O'qituvchi"
 
 #: .\home\templates\footer.html:41
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: .\home\templates\footer.html:42
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: .\home\templates\footer.html:47
 msgid "LINKS"
-msgstr ""
+msgstr "HAVOLALAR"
 
 #: .\home\templates\footer.html:49
 msgid "Courses"
-msgstr ""
+msgstr "Kurslar"
 
 #: .\home\templates\footer.html:50
 msgid "Events"
-msgstr ""
+msgstr "Iventlar"
 
 #: .\home\templates\footer.html:51
 msgid "Gallery"
-msgstr ""
+msgstr "Galereya"
 
 #: .\home\templates\footer.html:52
 msgid "FAQs"
-msgstr ""
+msgstr "Tez-tez so'raladigan savollar"
 
 #: .\home\templates\footer.html:57
 msgid "SUPPORT"
-msgstr ""
+msgstr "Qo'llab-quvvatlash"
 
 #: .\home\templates\footer.html:59
 msgid "Forums"
-msgstr ""
+msgstr "Forumlar"
 
 #: .\home\templates\footer.html:60
 msgid "Documentation"
-msgstr ""
+msgstr "Hujjatlar"
 
 #: .\home\templates\footer.html:61
 msgid "Language"
-msgstr ""
+msgstr "Til"
 
 #: .\home\templates\footer.html:62
 msgid "Release Status"
-msgstr ""
+msgstr "Chiqarish holati"
 
 #: .\home\templates\footer.html:67
 msgid "RECOMMEND"
-msgstr ""
+msgstr "Tavsiya qilish"
 
 #: .\home\templates\footer.html:69
 msgid "WordPress"
-msgstr ""
+msgstr "WordPress"
 
 #: .\home\templates\footer.html:70
 msgid "LearnPress"
-msgstr ""
+msgstr "LearnPress"
 
 #: .\home\templates\footer.html:71
 msgid "WooCommerce"
-msgstr ""
+msgstr "WooCommerce"
 
 #: .\home\templates\footer.html:72
 msgid "bbPress"
-msgstr ""
+msgstr "bbPress"
 
 #: .\home\templates\header.html:12
 msgid "CALL"
-msgstr ""
+msgstr "Qong'iroq qilish xizmati"
 
 #: .\home\templates\header.html:37
 msgid "notice"
-msgstr ""
+msgstr "bildirishnoma"
 
 #: .\home\templates\header.html:38
 msgid "research"
-msgstr ""
+msgstr "tadqiqot"
 
 #: .\home\templates\header.html:39
 msgid "SCHOLARSHIP"
-msgstr ""
+msgstr "Stipendiya"
 
 #: .\home\templates\header.html:40
 msgid "login"
-msgstr ""
+msgstr "login"
 
 #: .\home\templates\header.html:41
 msgid "register"
-msgstr ""
+msgstr "ro'yxatdan o'tish"
 
 #: .\home\templates\header.html:60
 msgid "HOME"
-msgstr ""
+msgstr "ASOSIY"
 
 #: .\home\templates\header.html:63
 msgid "ABOUT"
-msgstr ""
+msgstr "BIZ HAQIMIZDA"
 
 #: .\home\templates\header.html:69
 msgid "TUTORS"
-msgstr ""
+msgstr "MUALLIMLAR"
 
 #: .\home\templates\header.html:75
 msgid "CONTACTS"
-msgstr ""
+msgstr "KONTAKT"
 
 #: .\home\templates\homebase.html:7
 msgid "Educenter"
-msgstr ""
+msgstr "Educenter"
 
 #: .\home\templates\students.html:11
 msgid "Our Students"
-msgstr ""
+msgstr "Bizning Oq'uvchilar"
 
 #: .\home\templates\students.html:28 .\home\templates\subjects.html:28
 msgid "arts"
-msgstr ""
+msgstr "san'at"
 
 #: .\home\templates\students.html:29 .\home\templates\subjects.html:29
 msgid "biological science"
-msgstr ""
+msgstr "biologiya"
 
 #: .\home\templates\students.html:30 .\home\templates\subjects.html:30
 msgid "business studies"
-msgstr ""
+msgstr "biznes"
 
 #: .\home\templates\students.html:31 .\home\templates\subjects.html:31
 msgid "law"
-msgstr ""
+msgstr "qonun"
 
 #: .\home\templates\students.html:32 .\home\templates\subjects.html:32
 msgid "pharmacy"
-msgstr ""
+msgstr "farmatsevtika"
 
 #: .\home\templates\students.html:33 .\home\templates\subjects.html:33
 msgid "science"
-msgstr ""
+msgstr "ilm-fan"
 
 #: .\home\templates\students.html:34 .\home\templates\subjects.html:34
 msgid "social science"
-msgstr ""
+msgstr "ijtimoiy fan"
 
 #: .\home\templates\students.html:50
 msgid "Student"
-msgstr ""
+msgstr "Student"
 
 #: .\home\templates\subject_details.html:11
 msgid "Subjects"
-msgstr ""
+msgstr "Mavzular"
 
 #: .\home\templates\subject_details.html:42
 msgid "06 Month"
-msgstr ""
+msgstr "06 Oy"
 
 #: .\home\templates\subject_details.html:50
 msgid "DURATION"
-msgstr ""
+msgstr "Davomiyligi"
 
 #: .\home\templates\subject_details.html:51
 msgid "03 Hours"
-msgstr ""
+msgstr "03 Soat"
 
 #: .\home\templates\subject_details.html:59
 msgid "FEE"
-msgstr ""
+msgstr "NARXI"
 
 #: .\home\templates\subject_details.html:60
 msgid "From: $699"
-msgstr ""
+msgstr "$699 dan"
 
 #: .\home\templates\subject_details.html:77
 msgid "About Course"
-msgstr ""
+msgstr "Kurs Haqida"
 
 #: .\home\templates\subject_details.html:90
 msgid "Requirements"
-msgstr ""
+msgstr "Talablar"
 
 #: .\home\templates\subject_details.html:113
 msgid "How to Apply"
-msgstr ""
+msgstr "Qanday qurojaat qilish"
 
 #: .\home\templates\subject_details.html:128
 msgid "Fees and Funding"
-msgstr ""
+msgstr "To'lovlar va Mablag'lar"
 
 #: .\home\templates\subject_details.html:151
 msgid "Social Link"
-msgstr ""
+msgstr "Ijtimoiy Aloqa"
 
 #: .\home\templates\subjects.html:50
 msgid "More"
-msgstr ""
+msgstr "Batafsil"

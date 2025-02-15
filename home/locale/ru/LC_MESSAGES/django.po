@@ -365,7 +365,7 @@ msgstr "закон"
 
 #: .\home\templates\students.html:32 .\home\templates\subjects.html:32
 msgid "pharmacy"
-msgstr "аптека"
+msgstr "фармацевтивка"
 
 #: .\home\templates\students.html:33 .\home\templates\subjects.html:33
 msgid "science"
