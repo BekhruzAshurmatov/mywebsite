@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 20:10+0500\n"
+"POT-Creation-Date: 2025-02-18 12:22+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+#: .\mywebsite\urls.py:31
+msgid "admin/"
+msgstr ""
+
 #: .\home\templates\about.html:11 .\home\templates\footer.html:39
 msgid "About Us"
 msgstr "Biz haqimizda"
@@ -28,7 +32,10 @@ msgid ""
 "Our courses offer a good compromise between the continuous assessment "
 "favoured by some universities and the emphasis placed on final exams by "
 "others."
-msgstr "Bizning kurslarimiz ba'zi universitetlar tomonidan qo'llab-quvvatlanadigan doimiy baholash va boshqalar tomonidan yakuniy imtihonlarga e'tibor qaratish o'rtasida yaxshi murosani taklif qiladi."
+msgstr ""
+"Bizning kurslarimiz ba'zi universitetlar tomonidan qo'llab-quvvatlanadigan "
+"doimiy baholash va boshqalar tomonidan yakuniy imtihonlarga e'tibor qaratish "
+"o'rtasida yaxshi murosani taklif qiladi."
 
 #: .\home\templates\about.html:27
 msgid "ABOUT OUR JOURNEY"
@@ -38,12 +45,12 @@ msgstr "BIZNING SAYOHAT HAQIDA"
 msgid "TEACHERS"
 msgstr "O'QITUVCHILAR"
 
-#: .\home\templates\about.html:50 .\home\templates\header.html:66
+#: .\home\templates\about.html:50 .\home\templates\header.html:74
 #: .\home\templates\subject_details.html:41
 msgid "COURSES"
 msgstr "KURSLAR"
 
-#: .\home\templates\about.html:57 .\home\templates\header.html:72
+#: .\home\templates\about.html:57 .\home\templates\header.html:80
 msgid "STUDENTS"
 msgstr "STUDENTLAR"
 
@@ -71,8 +78,12 @@ msgid "Contact Us"
 msgstr "Bog'lanish"
 
 #: .\home\templates\contact.html:14
-msgid "Do you have other questions? Don't worry, there aren't any dumb questions. Just fill out the form below, and we'll get back to you as soon as possible."
-msgstr "Boshqa savollaringiz bormi? Xavotir olmang, ahmoqona savollar yo'q. Quyidagi shaklni to‘ldiring, biz sizga imkon qadar tezroq javob beramiz."
+msgid ""
+"Do you have other questions? Don't worry, there aren't any dumb questions. "
+"Just fill out the form below, and we'll get back to you as soon as possible."
+msgstr ""
+"Boshqa savollaringiz bormi? Xavotir olmang, ahmoqona savollar yo'q. Quyidagi "
+"shaklni to‘ldiring, biz sizga imkon qadar tezroq javob beramiz."
 
 #: .\home\templates\contact.html:48
 msgid "SEND MESSAGE"
@@ -301,39 +312,39 @@ msgstr "bbPress"
 msgid "CALL"
 msgstr "Qong'iroq qilish xizmati"
 
-#: .\home\templates\header.html:37
+#: .\home\templates\header.html:45
 msgid "notice"
 msgstr "bildirishnoma"
 
-#: .\home\templates\header.html:38
+#: .\home\templates\header.html:46
 msgid "research"
 msgstr "tadqiqot"
 
-#: .\home\templates\header.html:39
+#: .\home\templates\header.html:47
 msgid "SCHOLARSHIP"
 msgstr "Stipendiya"
 
-#: .\home\templates\header.html:40
+#: .\home\templates\header.html:48
 msgid "login"
 msgstr "login"
 
-#: .\home\templates\header.html:41
+#: .\home\templates\header.html:49
 msgid "register"
 msgstr "ro'yxatdan o'tish"
 
-#: .\home\templates\header.html:60
+#: .\home\templates\header.html:68
 msgid "HOME"
 msgstr "ASOSIY"
 
-#: .\home\templates\header.html:63
+#: .\home\templates\header.html:71
 msgid "ABOUT"
 msgstr "BIZ HAQIMIZDA"
 
-#: .\home\templates\header.html:69
+#: .\home\templates\header.html:77
 msgid "TUTORS"
 msgstr "MUALLIMLAR"
 
-#: .\home\templates\header.html:75
+#: .\home\templates\header.html:83
 msgid "CONTACTS"
 msgstr "KONTAKT"
 

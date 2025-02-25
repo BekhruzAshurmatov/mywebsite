@@ -29,18 +29,17 @@ urlpatterns = [
 ]
 urlpatterns += i18n_patterns(
     path(_('admin/'), admin.site.urls),
-    path('home/', index, name='home'),
     path('', index, name='home'),
+    path('home/', index, name='home'),
     path('course/', views.index, name='course'),
-    path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),
-    path('about.html', about, name='about'),
-    path('contact.html', contact, name='contact'),
-    path('tutors.html', tutors, name='tutor'),
-    path('students.html', students, name='student'),
-    path('courses.html', subjects, name='subject'),
-    path('subject/<int:id>/<slug:slug>', subject_details, name='subject_detail'),
-    path('tutor/<int:id>/<slug:slug>', subject_details, name='subject_detail'),
+    path('about/', about, name='about'),
+    path('contact/', contact, name='contact'),
+    path('tutors/', tutors, name='tutor'),
+    path('students/', students, name='student'),
+    path('courses/', subjects, name='subject'),
+    path('subject/<int:id>/<slug:slug>/', subject_details, name='subject_detail'),
+    # path('tutor/<int:id>/<slug:slug>', subject_details, name='subject_detail'),
 )
 
 if settings.DEBUG:

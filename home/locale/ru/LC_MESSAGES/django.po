@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 20:10+0500\n"
+"POT-Creation-Date: 2025-02-18 12:21+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\mywebsite\urls.py:31
+msgid "admin/"
+msgstr ""
+
 #: .\home\templates\about.html:11 .\home\templates\footer.html:39
 msgid "About Us"
 msgstr "О нас"
@@ -30,7 +34,10 @@ msgid ""
 "Our courses offer a good compromise between the continuous assessment "
 "favoured by some universities and the emphasis placed on final exams by "
 "others."
-msgstr "Наши курсы предлагают хороший компромисс между постоянной оценкой, которую предпочитают некоторые университеты, и акцентом на выпускных экзаменах, который делают другие."
+msgstr ""
+"Наши курсы предлагают хороший компромисс между постоянной оценкой, которую "
+"предпочитают некоторые университеты, и акцентом на выпускных экзаменах, "
+"который делают другие."
 
 #: .\home\templates\about.html:27
 msgid "ABOUT OUR JOURNEY"
@@ -40,12 +47,12 @@ msgstr "О НАШЕМ ПУТЕШЕСТВИИ"
 msgid "TEACHERS"
 msgstr "ПРЕПОДАВАТЕЛИ"
 
-#: .\home\templates\about.html:50 .\home\templates\header.html:66
+#: .\home\templates\about.html:50 .\home\templates\header.html:74
 #: .\home\templates\subject_details.html:41
 msgid "COURSES"
 msgstr "КУРСЫ"
 
-#: .\home\templates\about.html:57 .\home\templates\header.html:72
+#: .\home\templates\about.html:57 .\home\templates\header.html:80
 msgid "STUDENTS"
 msgstr "СТУДЕНТЫ"
 
@@ -73,8 +80,12 @@ msgid "Contact Us"
 msgstr "Связаться с нами"
 
 #: .\home\templates\contact.html:14
-msgid "Do you have other questions? Don't worry, there aren't any dumb questions. Just fill out the form below, and we'll get back to you as soon as possible."
-msgstr "Есть ли у вас еще вопросы? Не волнуйтесь, глупых вопросов нет. Просто заполните форму ниже, и мы свяжемся с вами в ближайшее время."
+msgid ""
+"Do you have other questions? Don't worry, there aren't any dumb questions. "
+"Just fill out the form below, and we'll get back to you as soon as possible."
+msgstr ""
+"Есть ли у вас еще вопросы? Не волнуйтесь, глупых вопросов нет. Просто "
+"заполните форму ниже, и мы свяжемся с вами в ближайшее время."
 
 #: .\home\templates\contact.html:48
 msgid "SEND MESSAGE"
@@ -303,39 +314,39 @@ msgstr "bbPress"
 msgid "CALL"
 msgstr "ПОЗВОНИТЬ"
 
-#: .\home\templates\header.html:37
+#: .\home\templates\header.html:45
 msgid "notice"
 msgstr "замечать"
 
-#: .\home\templates\header.html:38
+#: .\home\templates\header.html:46
 msgid "research"
 msgstr "изучение"
 
-#: .\home\templates\header.html:39
+#: .\home\templates\header.html:47
 msgid "SCHOLARSHIP"
 msgstr "СТИПЕНДИЯ"
 
-#: .\home\templates\header.html:40
+#: .\home\templates\header.html:48
 msgid "login"
 msgstr "логин"
 
-#: .\home\templates\header.html:41
+#: .\home\templates\header.html:49
 msgid "register"
 msgstr "зарегестрироваться"
 
-#: .\home\templates\header.html:60
+#: .\home\templates\header.html:68
 msgid "HOME"
 msgstr "ГЛАВНАЯ"
 
-#: .\home\templates\header.html:63
+#: .\home\templates\header.html:71
 msgid "ABOUT"
 msgstr "О Нас"
 
-#: .\home\templates\header.html:69
+#: .\home\templates\header.html:77
 msgid "TUTORS"
 msgstr "ПРЕПОДОВАТЕЛИ"
 
-#: .\home\templates\header.html:75
+#: .\home\templates\header.html:83
 msgid "CONTACTS"
 msgstr "КОНТАКТЫ"
 

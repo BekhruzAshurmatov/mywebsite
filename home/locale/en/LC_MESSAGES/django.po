@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 20:10+0500\n"
+"POT-Creation-Date: 2025-02-18 12:21+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\mywebsite\urls.py:31
+msgid "admin/"
+msgstr ""
+
 #: .\home\templates\about.html:11 .\home\templates\footer.html:39
 msgid "About Us"
 msgstr ""
@@ -38,12 +42,12 @@ msgstr ""
 msgid "TEACHERS"
 msgstr ""
 
-#: .\home\templates\about.html:50 .\home\templates\header.html:66
+#: .\home\templates\about.html:50 .\home\templates\header.html:74
 #: .\home\templates\subject_details.html:41
 msgid "COURSES"
 msgstr ""
 
-#: .\home\templates\about.html:57 .\home\templates\header.html:72
+#: .\home\templates\about.html:57 .\home\templates\header.html:80
 msgid "STUDENTS"
 msgstr ""
 
@@ -71,7 +75,9 @@ msgid "Contact Us"
 msgstr ""
 
 #: .\home\templates\contact.html:14
-msgid "Do you have other questions? Don"
+msgid ""
+"Do you have other questions? Don't worry, there aren't any dumb questions. "
+"Just fill out the form below, and we'll get back to you as soon as possible."
 msgstr ""
 
 #: .\home\templates\contact.html:48
@@ -301,39 +307,39 @@ msgstr ""
 msgid "CALL"
 msgstr ""
 
-#: .\home\templates\header.html:37
+#: .\home\templates\header.html:45
 msgid "notice"
 msgstr ""
 
-#: .\home\templates\header.html:38
+#: .\home\templates\header.html:46
 msgid "research"
 msgstr ""
 
-#: .\home\templates\header.html:39
+#: .\home\templates\header.html:47
 msgid "SCHOLARSHIP"
 msgstr ""
 
-#: .\home\templates\header.html:40
+#: .\home\templates\header.html:48
 msgid "login"
 msgstr ""
 
-#: .\home\templates\header.html:41
+#: .\home\templates\header.html:49
 msgid "register"
 msgstr ""
 
-#: .\home\templates\header.html:60
+#: .\home\templates\header.html:68
 msgid "HOME"
 msgstr ""
 
-#: .\home\templates\header.html:63
+#: .\home\templates\header.html:71
 msgid "ABOUT"
 msgstr ""
 
-#: .\home\templates\header.html:69
+#: .\home\templates\header.html:77
 msgid "TUTORS"
 msgstr ""
 
-#: .\home\templates\header.html:75
+#: .\home\templates\header.html:83
 msgid "CONTACTS"
 msgstr ""
 
